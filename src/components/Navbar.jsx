@@ -5,11 +5,11 @@ import Button from "./Button.jsx";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="flex items-center justify-between h-24 w-full px-12">
+    <header className="flex items-center justify-between min-h-24 w-full px-12">
       {!isMenuOpen && (
         <a
           href="#"
-          className="text-white text-2xl font-semibold hover:text-gray-300"
+          className="text-white text-2xl font-bold hover:text-gray-300"
         >
           Wallet
         </a>
