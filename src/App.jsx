@@ -3,6 +3,7 @@ import MainSection from "./components/MainSection.jsx";
 import Logos from "./components/Logos.jsx";
 import Product from "./components/Product.jsx";
 import Feature from "./components/Feature.jsx";
+import UserFeedback from "./components/UserFeedback/UserFeedback.jsx";
 
 function App() {
   return (
@@ -11,26 +12,27 @@ function App() {
       <MainSection />
       <Logos />
       <Product />
-      <div className="flex justify-center items-center gap-14">
+      <div className="flex max-md:flex-col justify-center items-center px-14 gap-13">
         <Feature
           src="src/assets/features/cards.png"
           alt="cards"
-          title="Feature 1"
-          description="Description of Feature 1"
+          title="Customizable card"
+          description="Custom your own card for your exact incomes and expenses needs."
         />
         <Feature
           src="src/assets/features/coin.png"
           alt="coin"
-          title="Feature 2"
-          description="Description of Feature 2"
+          title="No payment fee"
+          description="Transfer your payment all over the world with no payment fee."
         />
         <Feature
           src="src/assets/features/purse.png"
           alt="purse"
-          title="Feature 3"
-          description="Description of Feature 3"
+          title="All in one place"
+          description="The right place to keep your credit and debit cards, boarding passes & more."
         />
       </div>
+      <UserFeedback />
     </div>
   );
 }
