@@ -12,7 +12,7 @@ function App() {
       <MainSection />
       <Logos />
       <Product />
-      <div className="flex max-md:flex-col justify-center items-center px-14 gap-13">
+      <div className="flex max-md:flex-col justify-center items-center px-14 md:px-31 gap-13">
         <Feature
           src="src/assets/features/cards.png"
           alt="cards"
