@@ -1,8 +1,7 @@
-import { useState } from "react";
-import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import MainSection from "./components/MainSection.jsx";
 import Logos from "./components/Logos.jsx";
+import Product from "./components/Product.jsx";
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <Navbar />
       <MainSection />
       <Logos />
+      <Product />
     </div>
   );
 }
