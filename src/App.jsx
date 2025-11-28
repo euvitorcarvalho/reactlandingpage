@@ -7,12 +7,12 @@ import UserFeedback from "./components/UserFeedback/UserFeedback.jsx";
 
 function App() {
   return (
-    <div className='bg-[#2B2B2B] flex flex-col items-center w-full h-full font-["Poppins", sans-serif]'>
+    <div className='bg-[#2F2F2F] flex flex-col items-center w-full h-full font-["Poppins", sans-serif]'>
       <Navbar />
       <MainSection />
       <Logos />
       <Product />
-      <div className="flex max-md:flex-col justify-center items-center px-14 md:px-31 gap-13">
+      <div className="flex max-md:flex-col justify-center items-center max-w-7xl px-14 md:px-0 gap-12">
         <Feature
           src="src/assets/features/cards.png"
           alt="cards"

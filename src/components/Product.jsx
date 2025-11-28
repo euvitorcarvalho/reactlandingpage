@@ -1,15 +1,14 @@
 function Product() {
   return (
-    <div className="flex items-center justify-center w-full px-5 py-15">
-      <div
+      <div className="flex w-full justify-center py-24 px-8">
+        <div
         className="
-            w-full max-w-130 h-80
-            
-            md:w-[80%] md:max-w-none md:h-[600px]
-            
+            h-80
+            md:w-full w-[80%] md:min-h-[600px]
+            md:max-w-7xl
             rounded-lg bg-[#FDF5DF] bg-[url('/src/assets/product.png')] bg-no-repeat bg-center bg-cover transition-all duration-300"
       ></div>
-    </div>
+      </div>
   );
 }
 

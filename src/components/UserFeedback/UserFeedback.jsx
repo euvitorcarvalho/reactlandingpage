@@ -2,8 +2,8 @@ import Star from "./Star.jsx";
 
 function UserFeedback() {
   return (
-    <div className="flex px-5 py-13">
-      <div className=" rounded-xl bg-[#BFAFF2] max-w-[1080px] px-8 py-20 lg:p-40 lg:py-21 flex flex-col gap-12 max-sm:items-center">
+    <div className="flex justify-center py-13 px-8">
+      <div className=" rounded-xl bg-[#BFAFF2] md:w-full w-[80%] max-w-7xl px-8 py-20 lg:p-40 lg:py-21 flex flex-col gap-12 max-sm:items-center">
         <p className="text-2xl font-semibold">
           “Wallet is a great product! All of my most important information is
           there - credit cards, transit cards, boarding passes, tickets, and

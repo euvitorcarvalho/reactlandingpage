@@ -1,8 +1,12 @@
 import Button from "./Button";
+import backgroundImg from "../assets/background.png";
 
 function MainSection() {
   return (
-    <div className="text-white flex flex-col gap-10 items-center bg-[url('/src/assets/background.png')] bg-no-repeat bg-cover bg-bottom lg:min-h-[867px] min-h-[800px] w-full pt-16 px-5 lg:pt-20">
+    <div
+      className="text-white flex flex-col gap-10 items-center bg-no-repeat bg-cover bg-bottom lg:min-h-[867px] min-h-[800px] w-full max-w-7xl pt-16 lg:pt-20"
+      style={{ backgroundImage: `url(${backgroundImg})` }}
+    >
       <h1 className="text-6xl text-center font-semibold max-sm:text-4xl">
         Saas Landing Page Template
       </h1>
